@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #D5DADE;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height: 20%;
+  
+}
+#lft
+{
+    display: flex;
+width: 50%;
+padding: 0 150px;
+justify-content: space-between;
+}
+#lft i{
+    font-size: 25px;
+    margin-top: -5px;
+}
+#lft a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.658);
+    font-family: "gilroy";
+    font-size: 15px;
+}
+#lft a:hover{
+    color: rgba(0, 0, 0, 0.911);
+}
+#rgt{
+    width: 15%;
+    display: flex;
+    padding: 0 10px;    
+    justify-content: space-between;
+    align-items: center;
+}
+#rgt h5{
+    font-family: "gilroy";
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.753);
+}
+#butto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+   font-family: "gilroy";
+   font-size: 15px;
+    height: 40px;
+    
+    background-color: rgba(0, 162, 255, 0.637);
+    border-radius: 30%;
+}
+#txt{
+    position:absolute;
+    bottom: 30%;
+    left: 10%;
+
+}
+#txt #o{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: "gilroy";
+}
+#txt #to{
+    font-size: 30px;
+    margin-left: 25px;
+    letter-spacing: 2px;
+    font-family: "gilroy";
+}
+#txt #po{
+    margin-top: 25px;
+    width: 75%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.644);
+}
+#txt #get{
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+#ico{
+    position:absolute;
+    top: 88%;
+    width: 50%;
+    left: 28%;
+}   
+#ico h5{
+    position:absolute;
+    top: 8%;
+    font-weight: 200;
+    width: 100%;
+    height: 50%;
+    left: 8%;
+}
+#img1{
+    position:absolute;
+    top: 41%;
+    left: 37%;
+    width: 250px;
+    height:300px;
+    background-image: url(https://media.istockphoto.com/photos/digital-transformation-concept-system-engineering-binary-code-picture-id1321462048?b=1&k=20&m=1321462048&s=170667a&w=0&h=mlDKCuG5oXoX5zeCl6ixK1MiG1Y--ZmE4N6ku0NUKOE=);
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    position:absolute;
+    top: 15%;
+    left: 58%;
+    width: 250px;
+    height:300px;
+    background-image: url(https://images.unsplash.com/photo-1551651653-c5186a1fbba2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#img3{
+    position:absolute;
+    top: 40%;
+    left: 80%;
+    width: 250px;
+    height:350px;
+    background-image: url(https://images.unsplash.com/photo-1535303311164-664fc9ec6532?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width: 600px) {
+    
+    #lft {
+        display: flex;
+        width: 99%;
+        padding: 0 5px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 12%;
+    }#rgt {
+        width: 19%;
+        display: flex;
+        padding: 15px -5px;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+    #txt {
+        position: absolute;
+        bottom: 67%;
+        z-index: 9999999;
+        left: 10%;
+    }
+    #img1 {
+        position: absolute;
+        top: 75%;
+        left: 19%;
+        width: 250px;
+        height: 300px;
+        z-index: 9999999999;
+    }
+    #img2 {
+        position: absolute;
+        top: 10%;
+        left: 73%;
+        width: 226px;
+        z-index: 9999;
+        border-radius: 50%;
+        height: 217px;
+    }
+    #img3 {
+        position: absolute;
+        top: 21%;
+        left: 7%;
+        width: 383px;
+        height: 713px;
+    }
+}
